@@ -22,7 +22,13 @@ main(){
             cout << "Nothing";
         }
     }
-
-
+    int num;
+    cin >> num;
+    if (num % 2 == 0){
+        cout << "Even";
+    }
+    else {
+        cout << "Odd";
+    }
     return 0;
 }
