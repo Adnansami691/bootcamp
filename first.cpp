@@ -6,5 +6,5 @@ int main() {
     std::cin >> a;
     std::cout << a <<"\n";
     std::cout << "hello world!!";
-    srd::cout << a + b;
+    std::cout << a + b;
 }
