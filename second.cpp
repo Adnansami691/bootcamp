@@ -1,4 +1,3 @@
-#include<bits/c++io.h>
 #include<iostream>
 using namespace std;
 main(){
@@ -28,7 +27,6 @@ main(){
         cout << "Even";
     }
     else {
-        cout << "Odd";
-    }
+        cout << "
     return 0;
 }
