@@ -9,6 +9,7 @@ int main() {
         cout << i << "-even\n";
         else
         cout << i << "-odd\n";
+        //gfylktydtrdjtukskghvusdgkiugkuidhu
     }
 
     return 0;
