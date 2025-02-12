@@ -10,6 +10,9 @@ int main() {
         else
         cout << i << "-odd\n";
         //gfylktydtrdjtukskghvusdgkiugkuidhu
+        //kr8ufycbuyfgvglughgyu
+        //tkufkfgkyf hj hmb jh, 
+        //6yfkgchv hb ukyg
     }
 
     return 0;
