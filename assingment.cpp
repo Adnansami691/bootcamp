@@ -32,5 +32,54 @@ int main() {
         else if (i%3 == 0)
             int sum = i + i;
     }
+
+
+
+
+
+
+
+    #include <iostream>
+    using namespace std;
+    
+    int main() {
+        int N;
+        cin >> N; // Input the size of the tree
+    
+        int levels = (N + 1) / 2; // Number of levels in the tree body
+        int maxWidth = N; // Maximum width of the tree (at the bottom level)
+    
+        // Print the tree body
+        for (int i = 1; i <= levels; i++) {
+            // Print leading spaces
+            for (int j = 0; j < (maxWidth - (2 * i - 1)) / 2; j++) {
+                cout << " ";
+            }
+            // Print asterisks
+            for (int j = 0; j < 2 * i - 1; j++) {
+                cout << "*";
+            }
+            cout << endl;
+        }
+    
+        // Print the trunk
+        for (int i = 0; i < levels; i++) {
+            // Print leading spaces
+            for (int j = 0; j < (maxWidth - 1) / 2; j++) {
+                cout << " ";
+            }
+            // Print the trunk asterisk
+            cout << "*" << endl;
+        }
+    
+        return 0;
+    }
+
+
+
+
+
+
+
     return 0;
 }
