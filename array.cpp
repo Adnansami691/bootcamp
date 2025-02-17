@@ -7,7 +7,12 @@ int main() {
     a[1] = 55;
     a[2] = 66;
     cout << a;
-    int b[5] = {"134,143,412,411,6858"};
+    int n;
+    cin >> n;
+    int b[5];
+    for (int i =1;i < n;i++){
+        cout << b[i] << endl;
+    }
 
     return 0;
 }
