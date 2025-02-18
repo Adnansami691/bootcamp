@@ -2,16 +2,15 @@
 using namespace std;
 
 int main() {
-    int a[10];
-    a[0] = 45;
-    a[1] = 55;
-    a[2] = 66;
-    cout << a;
     int n;
     cin >> n;
-    int b[5];
-    for (int i =1;i < n;i++){
-        cout << b[i] << endl;
+    int marks[n];
+    for (int i = 0;i < n;i++){
+        cin >> marks[i];
+
+    }
+    for (int k=0;k < n;k++){
+        cout << marks[k] << endl;
     }
 
     return 0;
