@@ -1,17 +1,22 @@
 #include<iostream>
 using namespace std;
 
-int main() {
+int main(){
     int n;
     cin >> n;
-    int marks[n];
-    for (int i = 0;i < n;i++){
-        cin >> marks[i];
-
+    int a[n];
+    for (int i=0;i<n;i++){
+        cin >> a[i];
     }
-    for (int k=0;k < n;k++){
-        cout << marks[k] << endl;
+    cout << "Forward order!" << endl;
+    for (int i=0;i<n;i++){
+        cout << a[i]<< " ";
     }
-
+    cout << endl;
+    cout << "Reverse order!" << endl;
+    for (int i= n-1;i>=0;i--){
+        cout << a[i] << " ";
+    }
+    cout << endl;
     return 0;
 }
