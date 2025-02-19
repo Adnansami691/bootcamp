@@ -14,6 +14,7 @@ int main(){
             MAX = a[i];
         }
     }
+    cout << "the max number -> ";
     cout << MAX << endl;
 
     return 0;
