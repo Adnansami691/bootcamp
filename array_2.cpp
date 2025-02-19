@@ -1,18 +1,20 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
-    int n, sum = 0;
+    int n;
     cin >> n;
     int a[n];
-    for (int i=0;i< n;i++){
+    for (int i= 0;i< n; i++){
         cin >> a[i];
     }
-    for (int i= 0;i< n;i++){
-        sum = sum + a[i];
+    int MAX = INT_MIN;
+    for (int i =0;i < n;i++){
+        if (a[i] > MAX){
+            MAX = a[i];
+        }
     }
-    cout << sum << endl;
-    int avg = 1.00 * sum / n;
-    cout << avg << endl;
+    cout << MAX << endl;
+
     return 0;
 }
