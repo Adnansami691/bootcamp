@@ -6,13 +6,13 @@ int main() {
     cin >> n;
     int a[n];
     for (int i=0;i < n;i++){
-        cin >> a[n];
+        cin >> a[i];
     }
     int m;
     cin >> m;
     int b[m];
     for (int i = 0;i<m;i++){
-        cin >> a[m];
+        cin >> b[i];
     }
     int c[n + m];
     int index = 0;
@@ -20,8 +20,12 @@ int main() {
         c[index] = a[i];
         index++;
     }
+    for (int i =0;i<m; i++){
+        c[index] = b[i];
+        index++;
+    }
     for (int i =0;i < n +m;i++){
-        cout << c << " ";
+        cout << c[i] << " ";
     }
 
     return 0;
