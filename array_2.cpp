@@ -17,5 +17,6 @@ int main(){
     cout << "the max number -> ";
     cout << MAX << endl;
 //fkitydf irfkuvfukfjtytfmuyjcrmduyrvdh
+//hawgfujhsvjhsvuygbkjhiolo;
     return 0;
 }
