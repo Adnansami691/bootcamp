@@ -2,21 +2,22 @@
 using namespace std;
 
 int main() {
-    int N;
-    cin >> N;
-    int A[N];
-    for (int i=0;i<N;i++){
-        cin >> A[i];
-    }
+    string s;
+    string A;
+    string a;
+    cin >> s;
     int index =0;
-    for(int i=N-1;i>=0;i--){
-        if(i %2==0){
-            cout << A[i] << " ";
+    int asciivalue;
+    for(int i=0;is;i++){
+        if(i >=(int)65 && i<= (int)90){
+            A = i;
         }
-        index++;
-        
+        else {
+            a = i;
+        }
     }
-
+    cout << a << " ";
+    cout << A;
 
     return 0;
 }
