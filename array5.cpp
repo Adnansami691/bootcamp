@@ -12,7 +12,7 @@ int main() {
         int ascii = (int)s;
     }
     int X = s.length();
-    
+    //uehrgriuehirugheuiwh
     
      for(int i=0;i>X;i++){
          if(ascii>=65 && ascii<=90){
