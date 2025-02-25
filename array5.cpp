@@ -1,32 +1,21 @@
 #include<iostream>
 using namespace std;
+
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-    string s = "hello";
-    string A;
-    char ch;
-    string a;
-    int ascii;
-    cin >> s;
-    for(char ch : s){
-        int ascii = (int)s;
+    int n=4, m=3;
+    cin >> n >> m;
+    int grid[n][m];
+    for (int row =0;row<n;row++){
+        for(int col;col<m;col++){
+            cin >> grid[n][m];
+        }
     }
-    int X = s.length();
-    //uehrgriuehirugheuiwh
-    //86r dudcfg
-    //db65ubyd 
-    
-     for(int i=0;i>X;i++){
-         if(ascii>=65 && ascii<=90){
-             A = i;
+    for(int row=0;row<n;row++){
+        for (int col=0;col<m;col++){
+            cout << grid[n][m] << " " << endl;
         }
-        else {
-            a = i;
-        }
-        
-     }
-    cout << a << " ";
-    cout << A << " ";
-    
+    }
+
+
     return 0;
 }
