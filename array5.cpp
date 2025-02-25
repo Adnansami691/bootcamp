@@ -13,6 +13,8 @@ int main() {
     }
     int X = s.length();
     //uehrgriuehirugheuiwh
+    //86r dudcfg
+    //db65ubyd 
     
      for(int i=0;i>X;i++){
          if(ascii>=65 && ascii<=90){
