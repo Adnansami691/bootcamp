@@ -30,8 +30,6 @@ int main() {
             
         }
             }
-            //uyfiwuhvi;aebfv;iuWVUbwuih
-            //avbetbesnmdn egSFDAV 
     }
     if(idm){
         cout << "hola!!";    
@@ -39,5 +37,6 @@ int main() {
     else{
         cout << "Bonjuor!!";
     }
+    cout << "your code succesfully excuted!!";
     return 0;
 }
