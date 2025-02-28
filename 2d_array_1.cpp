@@ -37,6 +37,6 @@ int main() {
     else{
         cout << "Bonjuor!!";
     }
-    cout << "your code succesfully excuted!!";
+    cout << "succes!!";
     return 0;
 }
